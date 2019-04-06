@@ -1,0 +1,63 @@
+<?php
+
+$v_addressmaps = isset($_POST['addressmaps']) ? $_POST['addressmaps'] : '';
+$v_code = isset($_POST['code']) ? $_POST['code'] : (isset($_GET['code']) ? $_GET['code'] : '');
+$v_sellersays  = isset($_POST['sellersays']) ? $_POST['sellersays'] : '';
+$v_arrives  = isset($_POST['arrives']) ? $_POST['arrives'] : '';
+$v_Euro = isset($_POST['Euro']) ? $_POST['Euro'] : '';
+$v_VAT = isset($_POST['VAT']) ? $_POST['VAT'] : '';
+$v_styleid = isset($_POST['styleid']) ? $_POST['styleid'] : '';
+$v_bidlow = isset($_POST['bidlow']) ? $_POST['bidlow'] : '';
+$v_bidhigh = isset($_POST['bidhigh']) ? $_POST['bidhigh'] : '';
+$v_expiry = isset($_POST['expiry']) ? $_POST['expiry'] : '';
+$v_addy1 = isset($_POST['addy1']) ? $_POST["addy1"] : '';
+$v_addy2 = isset($_POST['addy2']) ? $_POST["addy2"] : '';
+$v_boxcondition = isset($_POST['boxcondition']) ? $_POST["boxcondition"] : '';
+$v_cardno = isset($_POST['cardno']) ? $_POST["cardno"] : '';
+$v_category = isset($_POST['category']) ? $_POST["category"] : '';
+$v_addy = isset($_POST['addy']) ? $_POST["addy"] : '';
+$v_post = isset($_POST['post']) ? $_POST["post"] : '';
+$v_city = isset($_POST['city']) ? $_POST["city"] : '';
+$v_state = isset($_POST['state']) ? $_POST["state"] : '';
+$v_color = isset($_POST['color']) ? $_POST["color"] : '';
+$v_country = isset($_POST['country']) ? $_POST["country"] : '';
+$v_countrycode = isset($_POST['countrycode']) ? $_POST["countrycode"] : '';
+$v_currency = isset($_POST['currency']) ? $_POST["currency"] : '';
+$v_designer = isset($_POST['designer']) ? $_POST["designer"] : '';
+$v_email = isset($_POST['email']) ? $_POST["email"] : '';
+$v_fname = isset($_POST['fname']) ? $_POST["fname"] : '';
+$v_prefix = isset($_POST['prefix']) ? $_POST["prefix"] : '';
+$v_suffix = isset($_POST['suffix']) ? $_POST["suffix"] : '';
+$v_image = isset($_POST['image']) ? $_POST["image"] : '';
+$v_intl = isset($_POST['intl']) ? $_POST["intl"] : '';
+$v_date = isset($_POST['date']) ? $_POST["date"] : $expiry_value;
+$v_tax = isset($_POST['tax']) ? $_POST["tax"] : '';
+$v_time = isset($_POST['time']) ? $_POST["time"] : '';
+$v_issues = isset($_POST['issues']) ? $_POST["issues"] : '';
+$v_itemcolor = isset($_POST['itemcolor']) ? $_POST["itemcolor"] : '';
+$v_itemlink = isset($_POST['itemlink']) ? $_POST["itemlink"] : '';
+$v_itemmaterial = isset($_POST['itemmaterial']) ? $_POST["itemmaterial"] : '';
+$v_itemname = isset($_POST['itemname']) ? $_POST["itemname"] : '';
+$v_itemstyle = isset($_POST['itemstyle']) ? $_POST["itemstyle"] : '';
+$v_listing = isset($_POST['listing']) ? $_POST["listing"] : '';
+$v_lname = isset($_POST['lname']) ? $_POST["lname"] : '';
+$v_name = isset($_POST['name']) ? $_POST["name"] : '';
+$v_phone = isset($_POST['phone']) ? $_POST["phone"] : '';
+$v_postcode = isset($_POST['postcode']) ? $_POST["postcode"] : '';
+$v_productid = isset($_POST['productid']) ? $_POST["productid"] : '';
+$v_purchaseprice = isset($_POST['purchaseprice']) ? $_POST["purchaseprice"] : '';
+$v_seller = isset($_POST['seller']) ? $_POST["seller"] : '';
+$v_ship = isset($_POST['ship']) ? $_POST["ship"] : '';
+$v_shipmethod = isset($_POST['shipmethod']) ? $_POST["shipmethod"] : '';
+$v_shoecondition = isset($_POST['itemcondition']) ? $_POST["itemcondition"] : '';
+$v_itemsize = isset($_POST['itemsize']) ? $_POST["itemsize"] : '';
+$v_sku = isset($_POST['sku']) ? $_POST["sku"] : '';
+$v_articleno = isset($_POST['articleno']) ? $_POST["articleno"] : '';
+$v_address = isset($_POST['address']) ? $_POST["address"] : '';
+$v_currency = isset($_POST['currency']) ? $_POST["currency"] : '';
+$v_category = isset($_POST['category']) ? $_POST["category"] : '';
+$v_transactions = isset($_POST['transactions']) ? $_POST["transactions"] : '';
+$v_itemlink = isset($_POST['itemlink']) ? $_POST["itemlink"] : '';
+
+
+?>

@@ -1,20 +1,13 @@
 <?php
 if(class_exists('DB') === false){
    class DB {
-/*
+
     
     private $server = "localhost"; 
     private $db_user = "root"; 
     private $db_pass = "password"; 
     private $db_name = "codes"; 
-    */ 
-    
    
-    private $server = "server233.web-hosting.com"; 
-    private $db_user ="repftfef_codes";
-    private $db_name ="repftfef_codes"; 
-    private $db_pass = "alwknAFlwknd3ialko"; 
-    
 
     function connect() {
         return mysqli_connect($this->server, $this->db_user, $this->db_pass, $this->db_name); 
